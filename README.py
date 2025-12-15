@@ -1,12 +1,7 @@
-# Log Monitoring CLI Tool
-
-## Description
 A Python-based command-line tool to parse, analyze, and monitor server log files.  
 It extracts important information, detects errors, identifies top IPs, and generates insightful reports in both console and file formats.
-
 ---
-
-## Features
+#features
 - Parse server log files to extract IP, timestamp, HTTP method, URL, and status code  
 - Analyze logs to:
   - Identify top N IPs by request count  
@@ -32,3 +27,4 @@ log-monitor-cli/
 ├── monitor.py
 ├── requirements.txt
 └── README.md
+
